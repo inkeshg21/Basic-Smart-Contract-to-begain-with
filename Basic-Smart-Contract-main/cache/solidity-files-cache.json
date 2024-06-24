@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/bushra/blockchain_apps/Hello-World/contracts/HelloWorld.sol": {
+      "lastModificationDate": 1645619735411,
+      "contentHash": "3f68a2d657b6a98965918a97dffcb0ed",
+      "sourceName": "contracts/HelloWorld.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.3"
+      ],
+      "artifacts": [
+        "HelloWorld"
+      ]
+    }
+  }
+}
